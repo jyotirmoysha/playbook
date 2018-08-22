@@ -16,7 +16,7 @@
   become_method: sudo
 
 - name: Copy files from one machine to current machine
-  shell: scp -r rage@10.163.1.11:/home/rage/ansible.cfg /home/rage
+  command: scp -r rage@10.163.1.11:/home/rage/ansible.cfg /home/rage
   become: true
   become_method: sudo
 
