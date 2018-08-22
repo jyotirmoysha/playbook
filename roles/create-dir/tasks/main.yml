@@ -16,7 +16,6 @@
   become_method: sudo
 
 - name: Fetch a remote file to a destination location
-  sudo: true
   fetch:
     src: /home/rage/ansible.cfg
     dest: /home/rage/

@@ -9,3 +9,11 @@
     mode: 0755
   become: true
   become_method: sudo
+
+- name: Fetch a remote file to a destination location
+  fetch:
+    src: /home/rage/ansible.cfg
+    dest: /home/rage/
+    flat: yes
+  become: true
+  become_method: sudo
