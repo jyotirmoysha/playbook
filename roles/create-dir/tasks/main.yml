@@ -19,7 +19,7 @@
   sudo: true
   fetch:
     src: /home/rage/ansible.cfg
-    dest: /home/rage/
+    dest: /home/rage/playbookdir3
     mode: 0774
     flat: yes
   become: true
