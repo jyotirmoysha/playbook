@@ -1,10 +1,10 @@
 ---
-- hosts: all
+- hosts: user-create
   become: true
   roles:
     - user-create
 
-- hosts: all
+- hosts: create-dir
   become: true
   roles:
     - create-dir
