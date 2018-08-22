@@ -1,4 +1,4 @@
 ---
 
 - debug:
-    msg: Testing roles in ansible tower
+    msg: Testing roles in ansible tower {{myname}}
