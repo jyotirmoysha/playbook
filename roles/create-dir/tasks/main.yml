@@ -1,0 +1,16 @@
+---
+
+- debug:
+    msg: Testing roles in ansible tower {{myname1}}
+
+- file:
+    path: /home/rage/{{test}}
+    state: directory
+    mode: 0755
+  become: true
+  become_method: sudo
+
+- name: Copy file local_policy.jar specific to Rage to jdk
+  copy: src=note.txt dest=/home/rage/{{test}}  mode=0755
+  become: true
+  become_method: sudo

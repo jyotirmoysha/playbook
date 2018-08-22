@@ -3,3 +3,8 @@
   become: true
   roles:
     - user-create
+
+- hosts: all
+  become: true
+  roles:
+    - create-dir

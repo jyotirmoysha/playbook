@@ -1,0 +1,2 @@
+
+Hello Jyotirmoy this is a test file to check file transfer in awx
