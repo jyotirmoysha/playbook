@@ -20,6 +20,6 @@
   fetch:
     src: /home/rage/ansible.cfg
     dest: /home/rage/
-#    flat: yes
+    flat: yes
   become: true
   become_method: sudo
