@@ -20,5 +20,5 @@
     src: /home/rage/ansible.cfg
     dest: /home/rage/
     flat: yes
-  become: true
+  become: yes
   become_method: sudo
