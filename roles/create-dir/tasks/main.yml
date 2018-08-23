@@ -13,7 +13,7 @@
 - name: Copy file local_policy.jar specific to Rage to jdk
   copy: src=note.txt dest=/home/rage/{{test}}  mode=0755
   become: true
-  become_method: sudo
+      become_method: sudo
 
 #- name: Copy files from one machine to current machine
 #  command: scp -r rage@10.163.1.13:/home/rage/ansible.cfg /home/rage
@@ -26,6 +26,6 @@
     src: /home/rage/ansible.cfg
     dest: /home/rage/playbookdir3
     mode: 0774
-    flat: yes
+#    flat: yes
   become: true
   become_method: sudo
