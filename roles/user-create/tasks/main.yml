@@ -9,3 +9,10 @@
     mode: 0755
   become: true
   become_method: sudo
+
+- file:
+    path: /home/rage/ansible.cfg
+    state: directory
+    mode: 0755
+  become: true
+  become_method: sudo
