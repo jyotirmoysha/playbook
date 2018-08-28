@@ -24,18 +24,8 @@
 #  sudo: true
 #  fetch:
 #    src: /home/rage/ansible.cfg
-#    dest: /home/rage/playbookdir3
+#    dest: /home/rage/playbookdir3/
 #    mode: 0774
 #    flat: yes
 #  become: true
 #  become_method: sudo
-
-- name: Fetch a remote file to a destination location
-  sudo: true
-  fetch:
-    src: /home/rage/ansible.cfg
-    dest: /home/rage/playbookdir3/
-    mode: 0774
-    flat: yes
-  become: true
-  become_method: sudo
